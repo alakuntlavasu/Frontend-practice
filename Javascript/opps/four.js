@@ -1,3 +1,0 @@
-class ATM{
-    constructor(withdraw)
-}
