@@ -1,0 +1,14 @@
+// let calc =(a,b,operation)=>{
+//     if (operation === 'sum'){
+//         return a+b
+//     }
+//     if (operation=== 'multi'){
+//         return a*b
+//     }
+
+// }
+// let r1=calc(10,30,'sum')
+// console.log(r1);
+// let r2=calc(60,45,'multi')
+//  console.log(r2)
+// normal method
