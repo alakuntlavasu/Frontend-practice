@@ -1,25 +1,30 @@
-const student = {
-    id: 101,
-    major: "Mathamatics",
-    money: 5000,
-    name: "Abrar",
-    subjects: ["English", "Economics", "Math 101", "Calculus"],
-    bestFriend: {
-        name: "Kundu",
-        major: "Mathematics"
-    },
-    takeExam: function () {
-        console.log(this.name, "taking exam");
-    },
-    treatDey: function (expense, tip) {
-        this.money = this.money - expense - tip;
-        return this.money
-    }
+/* function add(a, ...b){
+   
+    console.log(b)
+
 }
-student.takeExam();
-//Output: Abrar taking exam
-const remaining1 = student.treatDey(900, 100);
-const remaining2 = student.treatDey(500, 50);
-console.log(remaining1);
-console.log(remaining2);
-//Output: 4000,3450
+add()
+add(12,45)
+add(34,56,70)
+add(20,45,46,34) */
+
+/* // ES6 syntax
+for(let i = 4; i < 8; i++) {
+    console.log(i); // 0,1,2,3,4
+}
+console.log(i); // undefined */
+
+
+ // ES5 syntax
+/* for(var i = 0; i < 5; i++) {
+    console.log(i); // 0,1,2,3,4
+}
+console.log(i); // 5  */
+
+
+function myFunction(a, b, ...args) {
+    return args;
+}
+
+console.log(myFunction(1, 2, 3, 4, 5)); // 3,4,5
+console.log(myFunction(-7, 5, 0, -2, 4.5, 1, 3)); // 0,-2,4.5,1,3

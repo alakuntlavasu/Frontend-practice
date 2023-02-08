@@ -1,0 +1,31 @@
+
+body{
+    background-color: whitesmoke;
+}
+
+.heart { 
+    position: relative; 
+font-size: 400%;
+margin-top: 300px;
+margin-left: 550px;
+font-size: 5em;
+} 
+
+.heart:before, .heart:after { 
+    position: absolute; 
+    content: ""; 
+    left: 50px; 
+    top: 0; 
+    width: 50px; 
+    height: 80px; 
+    background: red; 
+    border-radius: 50px 50px 0 0; 
+    transform: rotate(-45deg); 
+    transform-origin: 0 100%; 
+} 
+
+.heart:after { 
+    left: 0; 
+    transform: rotate(45deg); 
+    transform-origin :100% 100%; 
+}
